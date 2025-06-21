@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: beige;
+}
+
+div > h1{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+

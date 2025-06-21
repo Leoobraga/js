@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro Script</title>
+    <link rel="stylesheet" href="stylestyle.css">
+</head>
+<body>
+    <div>
+        <h1>Ola, mundo!!</h1>
+    </div>   
+    <script>
+
+        //Number.parseInt = numero sem virgula, talvez nao seja a melhor opçao para se usar
+        //parseFloat = funciona qualquer tipo de numero e ajuda muito com pontos(virgulas, porem nao pode usar virgula somentes pontos)
+        //Number somente tambem pode ser usada e é a melhor opçao a ser usada
+        var n1 = Number( window.prompt("Digite um numero"))
+        var n2 = Number(window.prompt("digite outro numero")) 
+
+        var s = n1 + n2 
+
+        window.alert(`a soma de ${n1} com ${n2} é igual a ${s}`) // tem que usar crases (` `)
+
+        //(number + number) para adiçao
+        //(string + string) para concatenaçao
+        
+    </script>
+        
+</body>
+</html>
