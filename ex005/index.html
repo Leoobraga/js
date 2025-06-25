@@ -9,9 +9,21 @@
 <body>
     <h1>Iniciando os estudos de DOM</h1>
     <p>aprendendo usar o <strong>DOM</strong> em JavaScript.</p>
-    <div>Clique em mim</div>
+    <p>so para testar um negocio aqui</p>
+    <div id="msg">Clique em mim</div>
     <script>
-        window.document.write(window.document.charset)
+       /* var p1 = window.document.getElementsByTagName('p')[0]
+        var d = window.document.getElementById('msg')
+        d.innerHTML = "escreva isso"
+        d.style.background = "black"
+        d.style.color = 'white'
+        window.document.writeln('esta escrito isso: ' + p1.innerText + '<br>' ) // aqui ele vai ficar sem negrito por que esta no innerText //
+        window.document.writeln('esta escrito isso: ' + p1.innerText + '<br>') //aqui ele vai ficar com o negrito e ajuda muito , porque a formataçao esta identica//
+        window.document.writeln('esta isso aqui escrito: ' + d.innerText) */
+
+        var d = window.document.querySelector('div#msg')
+        window.document.write(d.innerHTML)
+
     </script>
 </body>
 </html>
