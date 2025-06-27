@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    background-color: gray;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.calc{
+    width: 400px;
+    height: 650px;
+    background-color: black;
+    display: flex;
+        display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.obj{
+
+}
+
