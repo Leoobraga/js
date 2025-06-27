@@ -4,21 +4,22 @@ body{
     background-color: gray;
     margin: 0px;
     padding: 0px;
-
+    width: 100vw;
+    height: 100vh;
 }
 
 .calc{
     width: 400px;
     height: 650px;
     background-color: black;
-    display: flex;
-        display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+
 }
 
 .obj{
-
+    margin-top: 25%;
 }
+
 
