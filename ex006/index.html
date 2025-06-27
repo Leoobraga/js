@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+        interaja...
+    </div>
+
+
+    <script>
+        var a = window.document.getElementById('area') //fica uma funçao global
+
+        function clicar(){
+           
+           a.innerText = 'clicou'
+           a.style.background = 'blue'}
+
+       function entrar(){
+            a.innerText = 'Entrou!'
+        }
+
+        function sair(){
+            a.innerText = 'saiu!'
+            a.style.background = 'green'
+        }
+
+    </script>
+    
+</body>
+</html>

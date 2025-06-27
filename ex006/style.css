@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+div#area{
+    background-color: green;
+    color: white;
+    font: normal 20pt sans-serif;
+    width: 200px;
+    height: 200px;
+    align-items: center; 
+    justify-content: center;
+    display: flex;
+    border-radius: 5px;
+}
+
+
+body{
+    align-items: center; 
+    justify-content: center;
+    display: flex;
+    padding-top: 180px;
+}
